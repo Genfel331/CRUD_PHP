@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".agregar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ingrese eventos"
+        android:textSize="28sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Id Evento:"
+        android:id="@+id/IdEvento"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="nombre:"
+        android:id="@+id/Nombre_Evento"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Lugar:"
+        android:id="@+id/Lugar"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Fecha:"
+        android:id="@+id/Fecha"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Hora:"
+        android:id="@+id/Hora"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Id Admin:"
+        android:id="@+id/IdAdmin"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        />
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="insertar"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+</LinearLayout>
